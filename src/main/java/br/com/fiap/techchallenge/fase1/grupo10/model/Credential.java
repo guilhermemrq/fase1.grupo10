@@ -10,7 +10,6 @@ public class Credential {
     private String newPassword;
 
     public Credential(LoginRequestDto loginRequestDto) {
-        this.id = loginRequestDto.id();
         this.userName = loginRequestDto.username();
         this.password = loginRequestDto.password();
     }
